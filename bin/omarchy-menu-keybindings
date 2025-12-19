@@ -202,8 +202,7 @@ prioritize_entries() {
     if (match(line, /Scroll active workspace/))  prio = 95
     if (match(line, /Cycle to/))  prio = 96
     if (match(line, /Reveal active/))  prio = 97
-    if (match(line, /Apple Display/))  prio = 98
-    if (match(line, /XF86/))  prio = 99
+    if (match(line, /XF86/))  prio = 98
 
     # print "priority<TAB>line"
     printf "%d\t%s\n", prio, line
@@ -226,4 +225,3 @@ build_keymap_cache
   parse_bindings |
   prioritize_entries |
   walker --dmenu -p 'Keybindings' --width 800 --height "$menu_height"
-
