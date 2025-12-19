@@ -121,7 +121,6 @@ ufw-docker
 unzip
 usage
 uwsm
-vesktop
 waybar
 wayfreeze
 whois
@@ -138,3 +137,4 @@ xournalpp
 yaru-icon-theme
 yay
 zoxide
+zsh
