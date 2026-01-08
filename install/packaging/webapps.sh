@@ -1,4 +1,3 @@
-omarchy-webapp-install "HEY" https://app.hey.com HEY.png "omarchy-webapp-handler-hey %u" "x-scheme-handler/mailto"
 omarchy-webapp-install "WhatsApp" https://web.whatsapp.com/ WhatsApp.png
 omarchy-webapp-install "ChatGPT" https://chatgpt.com/ ChatGPT.png
 omarchy-webapp-install "YouTube" https://youtube.com/ YouTube.png
